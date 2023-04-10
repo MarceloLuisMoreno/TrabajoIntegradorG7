@@ -31,5 +31,4 @@ finalidad de agregarlo a sus portfolios personales.
 
 ## Wireframes Figma del Proyecto:
 
-![figma](https://github.com/MarceloLuisMoreno/TrabajoIntegradorG7/tree/main/assets/wireframe/figma.png?raw=true)
-
+![figma](https://github.com/MarceloLuisMoreno/TrabajoIntegradorG7/blob/main/assets/wireframe/figma.png?raw=true)
