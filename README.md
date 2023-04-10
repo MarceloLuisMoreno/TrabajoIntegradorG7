@@ -24,7 +24,7 @@ finalidad de agregarlo a sus portfolios personales.
   
 - `HTML` 
 - `CSS` 
-- `JAVASCRIP`
+- `JAVASCRIPT`
 - `BOOTSTRAP`
 
 <br/>  
