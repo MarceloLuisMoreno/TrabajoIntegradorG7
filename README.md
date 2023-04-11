@@ -1,34 +1,65 @@
-## Project Trabajo Integrador Grupo 7  
-  
+# Project: Trabajo Integrador Grupo 7  
 
 
-
-### Integrantes del grupo:  
+&nbsp; 
+## _Integrantes del grupo:_
 - Daniel Alberto Acosta     (danielacosta32@gmail.com)
 - Darío Rubén Fernández     (rubenfernandez1105@gmail.com)
 - Alberto Fernando Álvarez  (albertof.alvarez@gmail.com)
 - Marcelo Luis Moreno       (marceloluismoreno@gmail.com)
-  
-  
-
-<br/>  
 
 
+&nbsp;
 ## Objetivos:   
 
-Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curso, con la
-finalidad de agregarlo a sus portfolios personales.
+Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curso.
+
+---
+
+&nbsp;
+## Tareas realizadas por cada integrante del grupo:   
+
+1. **Wireframes:** *Marcelo Luis Moreno*
+2. **Maquetado HTML:** *Daniel Alberto Acosta*
+3. **Formulario HTML:** *Darío Rubén Fernández*
+4. **Javascript:** *Alberto Fernando Álvarez*
+5. **Bootstrap y CSS:** *Marcelo Luis Moreno*
+
+&nbsp;
+
+---
 
 
-## Lenguajes y herramientas:
+&nbsp;
+## Lenguajes y herramientas utilizados en el proyecto:
   
 - `HTML` 
 - `CSS` 
 - `JAVASCRIPT`
 - `BOOTSTRAP`
+<div>
+<p style = 'text-align:center;'>
+<img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png" alt="html" width="43px">
+<img src="https://img.icons8.com/fluency/256/css3.png" alt="html" width="50px">
+<img src="https://img.icons8.com/color/256/html-5--v2.png" alt="html" width="50px">
+<img src="https://raw.githubusercontent.com/themedotid/bootstrap-icon/HEAD/docs/bootstrap-icon-css.png" alt="html" width="44px">
 
-<br/>  
+</p>
+</div>
 
+&nbsp;
+## License
+
+**Free Software!!**
+
+&nbsp;
+---
+<i class="fa-brands fa-html5" style="color: #fcfcfd;"></i>
+
+
+---
+&nbsp;
+&nbsp;
 ## Wireframes Figma del Proyecto:
 
 ![figma](https://github.com/MarceloLuisMoreno/TrabajoIntegradorG7/blob/main/assets/wireframe/figma.png?raw=true)

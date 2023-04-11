@@ -1,7 +1,6 @@
 /* Fontfamily Popping */
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins&display=swap');
 
-
 * {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -35,7 +34,7 @@ a:visited {
 }
 
 .marginNav {
-    padding-top: 4.7rem;
+    padding-top: 4.3rem;
 }
 
 .backgroundCarousel {
@@ -55,9 +54,18 @@ a:visited {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.card {
+    border-radius: 6% !important;
+}
+
+.imgCardRadius{
+    border-radius: 8% !important;
+}
+
 .card-body {
     font-size: .7rem !important;
 }
+
 .card-title {
     font-size: .8rem !important;
     font-weight: bold;
@@ -81,9 +89,7 @@ a:visited {
 
 #multistep form {
     background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
-    border-radius: 60px 60px 60px 0px;
-    border-radius: 3%;
-    height: 500px;
+    border-radius: 3% 3% 3% 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between
