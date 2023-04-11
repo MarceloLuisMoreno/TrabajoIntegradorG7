@@ -61,5 +61,10 @@ function procesarForm(){
     console.log("E-mail:", email.value);
     console.log("Mensaje: ", message.value);
     console.log("********** Fin de la transmisión **********");
+
+    form1.reset();
+    form2.reset();
+    form1.classList.toggle("d-none");
+    form2.classList.toggle("d-none");
 }
 
