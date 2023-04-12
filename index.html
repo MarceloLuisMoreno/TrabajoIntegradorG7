@@ -471,16 +471,17 @@
                         <!-- step 1 -->
                         <form id="step1" class="">
                             <fieldset class="p-2 p-md-4">
-                                <legend class="mb-5 text-center">1/2 Datos personales</legend>
+                                <legend class="mb-5 text-center"><b>1</b>/2 Datos personales</legend>
                                 <div class="mb-3">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <label for="name" class="form-label">Nombre</label>
-                                            <input type="text" id="fullName" class="form-control" required>
+                                            <input type="text" placeholder="ej: Juan Carlos" id="fullName"
+                                                class="form-control">
                                         </div>
                                         <div class="col-lg-6">
                                             <label for="lastName" class="form-label">Apellido</label>
-                                            <input type="text" class="form-control" id="lastName" required>
+                                            <input type="text" class="form-control" id="lastName">
                                         </div>
                                     </div>
                                 </div>
@@ -492,7 +493,8 @@
                                         </div>
                                         <div class="col-lg-6">
                                             <label for="phone" class="form-label">Teléfono</label>
-                                            <input type="tel" class="form-control" id="phone" required>
+                                            <input type="tel" placeholder="ej: +543816112233" class="form-control"
+                                                id="phone">
                                         </div>
                                     </div>
                                 </div>
@@ -506,15 +508,18 @@
                             <div class="text-center mb-3">
                                 <button type="button" class="btn" id="btn-next-form1">siguiente</button>
                             </div>
+                            <p id="errorStep1" class="text-center d-none textError">Error en algún dato cargado / Campo
+                                vacío
+                            </p>
                         </form>
 
                         <!-- step 2 -->
                         <form id="step2" class="d-none">
                             <fieldset class="p-2 p-md-4">
-                                <legend class="mb-5 text-center">2/2 Datos personales</legend>
+                                <legend class="mb-5 text-center">2/<b>2</b> Datos personales</legend>
                                 <div class="mb-3">
                                     <label for="message" class="form-label">Mensaje</label>
-                                    <textarea id="message" class="form-control" cols="30" rows="8" required></textarea>
+                                    <textarea id="message" class="form-control" cols="30" rows="8"></textarea>
                                     <div id="locationHelp" class="form-text">Indique que necesita que diseñe.</div>
                                 </div>
                             </fieldset>
@@ -522,6 +527,8 @@
                                 <button type="button" class="btn" id="btn-prev-form2">anterior</button>
                                 <button type="submit" class="btn" id="btn-submit">enviar</button>
                             </div>
+                            <p id="errorStep2" class="text-center d-none textError">Error mensaje vacío
+                            </p>
                         </form>
                     </div>
                 </section>
@@ -564,9 +571,10 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-5 textCopyright">
+            <div class="row g-0 text-center mt-5 pb-2 textCopyright">
                 <p>Copyright 2023 © Grupo 7</p>
-                <p>Alberto F. Álvarez - Darío Rubén Fernández - Daniel Alberto Acosta - Marcelo Luis Moreno</p>
+                <p>Alberto F. Álvarez - Darío Rubén Fernández - Daniel Alberto Acosta - Marcelo Luis
+                    Moreno</p>
                 <br>
             </div>
         </div>

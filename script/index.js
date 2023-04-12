@@ -32,16 +32,24 @@ function handleMultiStep(event) {
 	// esto chequea que boton se activo y cambia la visualización entre los formularios
 	switch (event.target.id) {
 		case "btn-next-form1":
-			form1.classList.toggle("d-none")
-			form2.classList.toggle("d-none")
+			const validForm1 = validarFormStep1()
+			if (validForm1) {
+				form1.classList.toggle("d-none")
+				form2.classList.toggle("d-none")
+				document.getElementById("errorStep1").classList.add("d-none")
+			}
 			break
 		case "btn-prev-form2":
 			form2.classList.toggle("d-none")
 			form1.classList.toggle("d-none")
 			break
 		case "btn-submit":
-			// console.log("Para procesar llamando a la función");
-			procesarForm() // Llamado a la función de procesar formulario
+			const validForm2 = validarFormStep2()
+			if (validForm2) {
+				document.getElementById("errorStep2").classList.add("d-none")
+				// console.log("Para procesar llamando a la función");
+				procesarForm() // Llamado a la función de procesar formulario
+			}
 			break
 		default:
 			break
@@ -64,4 +72,61 @@ function procesarForm() {
 	form2.reset()
 	form1.classList.toggle("d-none")
 	form2.classList.toggle("d-none")
+}
+
+// Función validar formulario step1
+function validarFormStep1() {
+	let valid = true
+	const regName = /^[A-ZÑa-zñáéíóúÁÉÍÓÚüÜ ]{2,30}$/
+	if (fullName.value == "" || !regName.test(fullName.value)) {
+		fullName.className += " invalid"
+		valid = false
+	} else {
+		fullName.className = "form-control"
+	}
+	if (lastName.value == "" || !regName.test(lastName.value)) {
+		lastName.className += " invalid"
+		valid = false
+	} else {
+		lastName.className = "form-control"
+	}
+	if (occupation.value == "" || !regName.test(occupation.value)) {
+		occupation.className += " invalid"
+		valid = false
+	} else {
+		occupation.className = "form-control"
+	}
+	const regPhono = /^[0-9+]{5,15}$/
+	if (!regPhono.test(phone.value)) {
+		phone.className += " invalid"
+		valid = false
+	} else {
+		phone.className = "form-control"
+	}
+	const regEmail = /^[a-z0-9]+@[a-z]+.[a-z]{2,3}$/
+	if (!regEmail.test(email.value)) {
+		email.className += " invalid"
+		valid = false
+	} else {
+		email.className = "form-control"
+	}
+	if (!valid) {
+		document.getElementById("errorStep1").classList.remove("d-none")
+	}
+	return valid
+}
+
+// Función validar formulario step2
+function validarFormStep2() {
+	let valid = true
+	if (message.value === "") {
+		message.className += " invalid"
+		valid = false
+	} else {
+		message.className = "form-control"
+	}
+	if (!valid) {
+		document.getElementById("errorStep2").classList.remove("d-none")
+	}
+	return valid
 }

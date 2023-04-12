@@ -148,5 +148,19 @@ label {
 }
 .textCopyright {
     font-size: .6rem;
-    line-height: .5%;
+    line-height: 5%;
+}
+
+/* formulario */
+/* Marco los cuadros de entrada que obtienen un error en la validación: */
+input.invalid {
+    background-color: #F79489 !important;
+}
+
+textarea.invalid {
+    background-color: #F79489 !important;
+}
+
+.textError {
+    color: #F79489;
 }
