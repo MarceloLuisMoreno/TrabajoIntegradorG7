@@ -72,7 +72,7 @@
 
     <!-- HERO SLIDER -->
     <section>
-        <div id="carouselExampleCaptions" class="carousel slide pt-0 pt-sm-5">
+        <div id="carouselHero" class="carousel slide pt-0 pt-sm-5">
             <div class="d-flex backgroundCarousel d-none d-sm-block">
                 <div class="row text-white textCarousel">
                     <h2>Haz tu interior <br> más minimalista y moderno</h2>
@@ -82,11 +82,11 @@
             </div>
             <div class="carousel-indicators">
                 <div class="carousel-caption d-none d-sm-block">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
             </div>
@@ -378,7 +378,7 @@
 
     <!-- TESTIMONIOS -->
     <section id="testimonios" class="marginNav">
-        <div class="bg-white my-4 mx-5 mx-md-4 mx-xl-3 p-5">
+        <div class="bg-white my-4 mx-2 mx-sm-5 mx-md-4 mx-xl-3 p-5">
             <h2 class="shadowTitles text-center p-sm-4">Testimonios, que dicen de mi...</h2>
             <div class="d-flex">
                 <div class="row">
@@ -465,22 +465,22 @@
         <div class="container mt-4">
             <div class="d-flex">
                 <section id="multistep" class="row">
-                    <div class="col-md-9">
+                    <div class="col-12 col-md-9">
                         <h5>Formulario</h5>
 
                         <!-- step 1 -->
                         <form id="step1" class="">
-                            <fieldset class="p-5">
+                            <fieldset class="p-2 p-md-4">
                                 <legend class="mb-5 text-center">1/2 Datos personales</legend>
                                 <div class="mb-3">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <label for="name" class="form-label">Nombre</label>
-                                            <input type="text" id="fullName" class="form-control">
+                                            <input type="text" id="fullName" class="form-control" required>
                                         </div>
                                         <div class="col-lg-6">
                                             <label for="lastName" class="form-label">Apellido</label>
-                                            <input type="text" class="form-control" id="lastName">
+                                            <input type="text" class="form-control" id="lastName" required>
                                         </div>
                                     </div>
                                 </div>
@@ -492,7 +492,7 @@
                                         </div>
                                         <div class="col-lg-6">
                                             <label for="phone" class="form-label">Teléfono</label>
-                                            <input type="tel" class="form-control" id="phone">
+                                            <input type="tel" class="form-control" id="phone" required>
                                         </div>
                                     </div>
                                 </div>
@@ -510,11 +510,11 @@
 
                         <!-- step 2 -->
                         <form id="step2" class="d-none">
-                            <fieldset class="p-5">
+                            <fieldset class="p-2 p-md-4">
                                 <legend class="mb-5 text-center">2/2 Datos personales</legend>
                                 <div class="mb-3">
                                     <label for="message" class="form-label">Mensaje</label>
-                                    <textarea id="message" class="form-control" cols="30" rows="8"></textarea>
+                                    <textarea id="message" class="form-control" cols="30" rows="8" required></textarea>
                                     <div id="locationHelp" class="form-text">Indique que necesita que diseñe.</div>
                                 </div>
                             </fieldset>
