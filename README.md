@@ -43,23 +43,28 @@ Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curs
 <img src="https://img.icons8.com/fluency/256/css3.png" alt="html" width="50px">
 <img src="https://img.icons8.com/color/256/html-5--v2.png" alt="html" width="50px">
 <img src="https://raw.githubusercontent.com/themedotid/bootstrap-icon/HEAD/docs/bootstrap-icon-css.png" alt="html" width="44px">
-
 </p>
 </div>
+
+
+---
 
 &nbsp;
 ## License
 
 **Free Software!!**
 
-&nbsp;
----
-<i class="fa-brands fa-html5" style="color: #fcfcfd;"></i>
-
-
 ---
 &nbsp;
 &nbsp;
 ## Wireframes Figma del Proyecto:
 
+### Desktop
+
 ![figma](https://github.com/MarceloLuisMoreno/TrabajoIntegradorG7/blob/main/assets/wireframe/figma.png?raw=true)
+
+
+### Mobile
+
+![figma](https://github.com/MarceloLuisMoreno/TrabajoIntegradorG7/blob/main/assets/wireframe/figmaMobile.png?raw=true)
+
