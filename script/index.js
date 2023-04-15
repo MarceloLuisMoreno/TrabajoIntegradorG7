@@ -3,7 +3,6 @@
 // o se realiza la salida de datos por consola.
 
 //Capturando campos del formulario
-console.log("Comenzamos a correr el Js")
 const fullName = document.getElementById("fullName")
 const lastName = document.getElementById("lastName")
 const occupation = document.getElementById("occupation")
@@ -14,11 +13,9 @@ const message = document.getElementById("message")
 // capturando formularios
 const form1 = document.getElementById("step1")
 const form2 = document.getElementById("step2")
-console.log(form1, form2)
 
 //capturando botones de todo el formulario
 const btnForm = document.getElementsByClassName("btn")
-console.log(btnForm) // control para saber si se capturaron los botones
 
 //ciclo for para recorrer la cadena capturada de botones y agregar el evento listener para capturar eventos click y llamar a función handleMultiStep
 for (let i = 0; i < btnForm.length; i++) {
@@ -47,7 +44,7 @@ function handleMultiStep(event) {
 			const validForm2 = validarFormStep2()
 			if (validForm2) {
 				document.getElementById("errorStep2").classList.add("d-none")
-				// console.log("Para procesar llamando a la función");
+				document.getElementById("nameClient").innerHTML = fullName.value + " " + lastName.value
 				procesarForm() // Llamado a la función de procesar formulario
 			}
 			break
@@ -78,19 +75,19 @@ function procesarForm() {
 function validarFormStep1() {
 	let valid = true
 	const regName = /^[A-ZÑa-zñáéíóúÁÉÍÓÚüÜ ]{2,30}$/
-	if (fullName.value == "" || !regName.test(fullName.value)) {
+	if (!regName.test(fullName.value)) {
 		fullName.className += " invalid"
 		valid = false
 	} else {
 		fullName.className = "form-control"
 	}
-	if (lastName.value == "" || !regName.test(lastName.value)) {
+	if (!regName.test(lastName.value)) {
 		lastName.className += " invalid"
 		valid = false
 	} else {
 		lastName.className = "form-control"
 	}
-	if (occupation.value == "" || !regName.test(occupation.value)) {
+	if (!regName.test(occupation.value)) {
 		occupation.className += " invalid"
 		valid = false
 	} else {

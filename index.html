@@ -71,45 +71,48 @@
         </nav>
 
         <section>
-            <div id="carouselHero" class="carousel slide">
-                <div class="d-flex backgroundCarousel d-none d-sm-block">
-                    <div class="row text-white textCarousel">
-                        <h2>Haz tu interior <br> más minimalista y moderno</h2>
-                        <p>Dar vida a los interiores, comprender a la persona o personas que <br>
-                            viven en una casa es una necesidad mucho mayor en el diseño.</p>
-                    </div>
-                </div>
+            <div id="carouselHero" class="carousel slide" data-bs-theme="dark">
                 <div class="carousel-indicators">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="d-flex">
+                    <div class="row text-white">
+                        <p class="titleCarousel">Haz tu interior <br> más minimalista y moderno</p>
+                        <p class="textCarousel">Dar vida a los interiores, comprender a la persona o personas que
+                            <br>
+                            viven en una casa es una necesidad mucho mayor en el diseño.
+                        </p>
                     </div>
                 </div>
-                <div class="carousel-inner  d-none d-sm-block">
+                <div class="carousel-inner ">
                     <div class="carousel-item active">
-                        <img src="./assets/img/carousel1.jpg" class="d-block img-fluid"
+                        <img src="./assets/img/carousel1.jpg" class="d-block imgCarousel"
                             alt="Imagen de un living moderno colores beige">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carousel2.jpg" class="d-block img-fluid"
+                        <img src=" ./assets/img/carousel2.jpg" class="d-block imgCarousel"
                             alt="Imagen de un living moderno colores beige y azul">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carousel3.jpg" class="d-block img-fluid" alt="Imagen de una oficina">
+                        <img src="./assets/img/carousel3.jpg" class="d-block imgCarousel" alt="Imagen de una oficina">
                     </div>
                 </div>
+
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+
             </div>
         </section>
 
@@ -118,7 +121,7 @@
     <!--  QUIEN SOY ? -->
     <section id="quienSoy" class="container mb-5 mt-5">
         <div class="mb-3 marginNav">
-            <h3 class="shadowTitles text-start mt-1">D.I.E. María Lila Moreno</h3>
+            <h3 class="shadowTitles text-start mt-3">D.I.E. María Lila Moreno</h3>
             <div class="row g-3 mt-3 d-flex">
                 <div class="col-lg-4">
                     <img src="./assets/img/lili.png" class="img-fluid rounded-start" alt="Foto de María Lila Moreno">
@@ -127,7 +130,7 @@
                     <div class="bg-white mt-5">
                         <p class="card-text p-5">Estudié en la UNT Facultad de Bellas Artes y soy Diseñadora de
                             Interiores y Equipamiento.
-                            Y Estoy lista para ayudarlo a construir y también a realizar el diseño de la habitación
+                            Y estoy lista para ayudarlo a construir y también a realizar el diseño de la habitación
                             con la que sueña, con las mejores recomendaciones.</p>
                     </div>
                 </div>
@@ -159,7 +162,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="text-center">
-                        <img src="./assets/img/Mask Group.svg" class="d-flex flex-column float-start w-100"
+                        <img src="./assets/img/habitacion.png" class="d-flex flex-column float-start w-100"
                             alt="Render de un linving">
                     </div>
                 </div>
@@ -211,7 +214,7 @@
                             </button>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Obra: Crear Plack</h5>
+                            <p class="card-title">Obra: Crear Plack</p>
                             <p class="card-text mt-4">Diseño de local comercial,
                                 iluminación y color envolvente.</p>
                             <p>Ubicación: Alberdi - Tucumán</p>
@@ -263,7 +266,7 @@
                             </button>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Obra: BRB Amoblamientos</h5>
+                            <p class="card-title">Obra: BRB Amoblamientos</p>
                             <p class="card-text mt-4 mb-3">Diseño de local comercial empresa BRB Amoblamientos</p>
                             <p>Ubicación: Yerba Buena</p>
                         </div>
@@ -309,7 +312,7 @@
                             </button>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Obra: Consultorio edificio Vittalia</h5>
+                            <p class="card-title">Obra: Consultorio edificio Vittalia</p>
                             <p class="card-text mt-4 mb-3">Diseño del centro médico CIAT, salas de espera y consultorios
                                 médicos. </p>
                             <p>Ubicación: San Miguel de Tucumán</p>
@@ -361,7 +364,7 @@
                             </button>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Obra: Habitación de adolescente</h5>
+                            <p class="card-title">Obra: Habitación de adolescente</p>
                             <p class="card-text mt-4 mb-3">Diseño completo de habitacón de adolescente, Country del
                                 Jockey.</p>
                             <p>Ubicación: Yerba Buena</p>
@@ -374,7 +377,7 @@
 
     <!-- TESTIMONIOS -->
     <section id="testimonios" class="marginNav container-fluid bg-white">
-        <div class=" my-1 mx-2 mx-sm-5 mx-md-4 mx-xl-3">
+        <div class="my-2 mx-5 mx-sm-5 mx-md-4 mx-xl-5">
             <h2 class="shadowTitles text-center pb-5">Testimonios, que dicen de mi...</h2>
             <div class="d-flex">
                 <div class="row">
@@ -460,7 +463,7 @@
             <div class="d-flex">
                 <section id="multistep" class="row">
                     <div class="col-12 col-md-9">
-                        <h5>Formulario</h5>
+                        <p class="fs-4">Formulario</p>
 
                         <!-- step 1 -->
                         <form id="step1" class="">
@@ -500,7 +503,7 @@
                                 </div>
                             </fieldset>
                             <div class="text-center mb-3">
-                                <button type="button" class="btn" id="btn-next-form1">siguiente</button>
+                                <button type="button" class="btn" id="btn-next-form1">Siguiente</button>
                             </div>
                             <p id="errorStep1" class="text-center d-none textError">Error en algún dato cargado / Campo
                                 vacío
@@ -518,8 +521,9 @@
                                 </div>
                             </fieldset>
                             <div class="text-center mb-3">
-                                <button type="button" class="btn" id="btn-prev-form2">anterior</button>
-                                <button type="submit" class="btn" id="btn-submit">enviar</button>
+                                <button type="button" class="btn" id="btn-prev-form2">Anterior</button>
+                                <button type="submit" class="btn" id="btn-submit" data-bs-toggle="modal"
+                                    data-bs-target="#formModal">Enviar</button>
                             </div>
                             <p id="errorStep2" class="text-center d-none textError">Error mensaje vacío
                             </p>
@@ -528,6 +532,27 @@
                 </section>
             </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="formModalLabel">Mensaje enviado</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="nameClient"></p>
+                        <p>A la brevedad estaremos respondiento su consulta.</p>
+                        <p>Gracias!!!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <!-- FOOTER -->

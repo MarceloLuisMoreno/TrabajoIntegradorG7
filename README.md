@@ -59,6 +59,8 @@ Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curs
 &nbsp;
 ## Wireframes Figma del Proyecto:
 
+Link Figma: https://www.figma.com/file/DroLJlS0Hu9MO5TPcucngK/Grillas?node-id=15-2&t=mGrrjUlYn31FDtgv-0
+&nbsp;
 ### Desktop
 
 ![figma](https://github.com/MarceloLuisMoreno/TrabajoIntegradorG7/blob/main/assets/wireframe/figma.png?raw=true)
