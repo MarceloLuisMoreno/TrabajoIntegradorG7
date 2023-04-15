@@ -46,6 +46,14 @@ Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curs
 </p>
 </div>
 
+---
+
+&nbsp;
+## Proyecto publicado en NetLify:
+### Link: https://die-maria-lila-moreno.netlify.app/
+
+
+&nbsp;
 
 ---
 
