@@ -67,15 +67,15 @@ a:visited {
     font-size: 1.1rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
+/* Breakpoints para los tamaños de pantallas, cambiamos  */
 @media (max-width: 576px) {
     .titleCarousel {
         margin-top: 5em;
         font-size: 1.4rem;
     }
     .textCarousel {
-        margin-top: 20em;
-        font-size: .6rem
+        margin-top: 22em;
+        font-size: .65rem
     }
 } 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -107,7 +107,7 @@ a:visited {
 @media (max-width: 576px) {
     .imgCarousel {
         width: 576px;
-        height: 500px;
+        height: 600px;
         object-fit: cover;
         
     }
@@ -122,7 +122,7 @@ a:visited {
 @media (min-width: 769px) and (max-width: 992px) {
     .imgCarousel {
         width: 992px;
-        height: 600px;
+        height: 800px;
         object-fit: cover;
     }
 } 
