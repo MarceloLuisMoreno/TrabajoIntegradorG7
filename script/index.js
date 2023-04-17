@@ -3,6 +3,7 @@
 // o se realiza la salida de datos por consola.
 
 //Capturando campos del formulario
+const formModal = new bootstrap.Modal("#formModal")
 const fullName = document.getElementById("fullName")
 const lastName = document.getElementById("lastName")
 const occupation = document.getElementById("occupation")
@@ -46,6 +47,7 @@ function handleMultiStep(event) {
 				document.getElementById("errorStep2").classList.add("d-none")
 				document.getElementById("nameClient").innerHTML = fullName.value + " " + lastName.value
 				procesarForm() // Llamado a la función de procesar formulario
+				formModal.show() // Lanzamos Modal para agradecer consulta
 			}
 			break
 		default:
